@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Форма авторизации</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Обработчик формы -->
+        <?php include 'auth.php';  ?>
+        
+        <form action="/task-10/" method="POST">
+        	<input type="text" name="username" placeholder="Ваш логин"/>
+        	<input type="password" name="password" placeholder="Ваш пароль" />
+        	<input type="submit" value="Авторизироваться на сайте" />	
+        </form>
+    </body>
+</html>

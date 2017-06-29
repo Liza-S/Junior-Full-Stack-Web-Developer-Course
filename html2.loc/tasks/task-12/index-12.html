@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Форма отправки комментария</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style type="text/css">
+            textarea {
+                display: block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <!-- Обработчик формы -->
+        <?php include 'comment.php';?>
+        
+        <form action="/task-12/" method="GET">
+            <input type="text" name="username" placeholder="Введите ваше имя">
+            <input type="text" name="family_name" placeholder="Введите вашу фамилию">
+            <textarea cols="30" rows="10" name="comment" placeholder="Комментарий"></textarea>
+            <input type="submit" value="Авторизироваться на сайте">
+        </form>
+    </body>
+</html>
+

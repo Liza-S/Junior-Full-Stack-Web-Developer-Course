@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Скрытие элементов формы и обязательные элементы</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Обработчик форм -->
+        <?php include "get.php";?>
+        <form action="/task-17/" >
+        	<input type="hidden" name="top-secret" value="1248" />
+        	<input type="text" name="code" required />
+        	<input type="submit" />
+        </form>
+
+        
+                
+    </body>
+</html>
