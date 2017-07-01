@@ -1,0 +1,63 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+header {
+    height: 160px;
+    background-color: purple;
+}
+
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+
+.table {
+	display: table;
+	width: 100%;
+}
+
+.tablerow {
+	display: table-row;
+}
+
+.tablecell {
+	display: table-cell;
+}
+
+aside {
+	background-color: red;
+	width: 20px;
+	height: 200px;
+}
+
+article {
+	background-color: green;
+	width: 60%;
+	height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

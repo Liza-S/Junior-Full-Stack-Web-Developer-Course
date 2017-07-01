@@ -1,0 +1,54 @@
+#container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	height: 160px;
+	background-color: purple;
+}
+
+footer {
+	height: 200px;
+	background-color: black;
+}
+
+aside {
+	background-color: red;
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+article {
+	background-color: green;
+	width: 700px;
+	height: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+main {
+	font-size: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

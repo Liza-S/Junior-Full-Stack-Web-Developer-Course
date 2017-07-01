@@ -1,0 +1,62 @@
+.container {
+	line-height: 30px;
+}
+
+.card {
+	width: 30px;
+	height: 30px;
+	margin:  10px;
+	padding: 20px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	border-radius: 10%;
+}
+
+.big {
+	width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

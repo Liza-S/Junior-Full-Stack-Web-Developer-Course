@@ -1,0 +1,45 @@
+.block {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-color: #dedede;
+    display: inline-block;
+}
+
+.div1 {
+	border-width: 1px;
+	border-color: red;
+	border-style: solid;
+}
+
+.div2 {
+	border-width: 5px;
+	border-color: navy;
+	border-style: dotted;
+}
+
+.div3 {
+	border: 10px double aqua;
+}
+
+.div4 {
+	border: 20px inset crimson;
+}
+
+.div5 {
+	border-bottom: 3px solid olive;
+	border-top-width: 5px;
+	border-top-color: orange;
+	border-top-style: dashed;
+}
+
+.div6 {
+	border-bottom: 50px solid blue;
+	border-top: 50px solid blue;
+	border-right: 50px solid yellow;
+	border-left: 50px solid yellow;
+}
+
+
+
+

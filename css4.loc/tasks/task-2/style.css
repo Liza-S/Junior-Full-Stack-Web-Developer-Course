@@ -1,0 +1,21 @@
+.div1 {
+	background-color: red;
+}
+
+.div2 {
+	background-color: navy;
+}
+
+.div3 {
+	background-color: green;
+}
+
+.elem {
+	width: 200px;
+	height: 100px;
+	display: none;
+}
+
+body {
+	font-size: 0px;
+}

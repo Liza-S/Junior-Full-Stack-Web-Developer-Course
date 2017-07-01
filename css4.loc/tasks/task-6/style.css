@@ -1,0 +1,37 @@
+.avatar_block {
+	width: 320px;
+	background-color: #dedede;
+	height: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	line-height: 320px;
+	border-radius: 20px;
+}
+
+.avatar {
+	display: inline-block;
+	background-image: url('person.png');
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+	border-radius: 50%;
+	border: 3px solid yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
