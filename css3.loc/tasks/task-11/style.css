@@ -1,0 +1,12 @@
+input[type="text"] {
+	border: 1px solid green;
+}
+
+input[type="password"] {
+	border: 1px solid red;
+}
+
+form [type="submit"] {
+	border: 1px solid orange;
+	background-color: orange;
+}

@@ -1,0 +1,16 @@
+.header {
+    color: purple;
+}
+
+h1, h2 {
+	color: greenyellow;    
+}
+
+h1, h2 {
+	color: green;    
+}
+
+#main_header {
+    color: red;
+}
+

@@ -1,0 +1,19 @@
+body {
+	background: #eae0d5;
+}
+
+h1, h2 {
+	font-family: 'Bad Script', cursive;
+	color: #514337;
+	font-size: 100px;
+	text-align: center;
+	line-height: 0.6em;
+}
+
+h2 {
+	font-size: 90px;
+}
+
+p {
+	text-align: center;
+}

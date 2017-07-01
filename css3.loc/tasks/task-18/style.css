@@ -1,0 +1,15 @@
+a {
+	text-decoration: none;
+}
+
+#first {
+	text-decoration: line-through;
+}
+
+#third {
+	text-decoration: underline;
+}
+
+#third:hover {
+	text-decoration: line-through;
+}

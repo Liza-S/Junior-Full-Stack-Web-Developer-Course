@@ -1,0 +1,22 @@
+h1 {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#first {
+	font-weight: lighter;
+	font-style: italic;
+}
+
+h2 {
+	font-weight: bolder;
+	font-size: 28px;
+}
+
+p {
+	font-size: 20px;
+}
+
+#last {
+	font-style: oblique;
+}

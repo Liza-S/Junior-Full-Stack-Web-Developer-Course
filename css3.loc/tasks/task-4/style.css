@@ -1,0 +1,19 @@
+p {
+	color: red;
+}
+
+h1 {
+	color: green;
+}
+
+li {
+	color: purple;
+}
+
+p, li {
+	font-family: Verdana;
+}
+
+* {
+	font-size: 20px;
+}
