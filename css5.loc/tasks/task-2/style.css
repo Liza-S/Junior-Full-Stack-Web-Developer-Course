@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color: #e25050;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+header {
+	height: 172px;
+	text-align: center;
+	line-height: 172px;
+	vertical-align: middle;
+}
+
+h1 {
+	color: white;
+	font-family: "Oswald";
+	font-style: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: white;
+	font-family: "Oswald";
+	font-size: 18px;
+	font-style: bold;
+	text-transform: uppercase;
+	margin-top: 50px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.price {
+	color: white;
+	font-family: "Oswald";
+	font-size: 36px;
+	font-style: bold;
+	text-transform: uppercase;
+	margin-top: 50px;
+	text-align: center;
+}
+
+ul {
+	margin-top: 32px;
+	list-style-image: url("img/ok.png");
+	list-style-position: inside;
+	line-height: 36px;
+}
+
+li {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+
+.block {
+	width: 370px;
+	height: 505px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.standard {
+	background-color: #d14343;
+}
+
+.advanced {
+	background-color: #e25050;
+	border: 2px white solid;
+	box-sizing: border-box;
+}
+
+.business {
+	background-color: #d14343;
+}
+
+.button {
+	height: 54px;
+	width: 230px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.bstandard, .bbusiness {
+	background-color: #e25050;
+	color: white;
+	font-family: "Oswald";
+	font-size: 18px;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+.badvanced {
+	background-color: white;
+	color: #e25050;
+	font-family: "Oswald";
+	font-size: 18px;
+	font-style: bold;
+	text-transform: uppercase;
+}
