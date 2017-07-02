@@ -1,5 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+body {
+	background: url("imgs/bg.gif");
+	text-align: center;
+}
 
 .wrapper {
+	height: 1155px;
+	width: 800px;
+	background-color: #fafafa;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border: 5px solid #f5f5f5;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #d9d9d9;
+}
 
+header {
+	height: 98px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Ariston";
+	font-size: 34px;
+	margin-top: 20px;
+	color: #555555;
+}
+
+.simple {
+	font-family: "Proxima Nova Regular";
+	font-size: 12px;
+	font-style: italic;
+	color: #888888;
+	line-height: 6px;
+}
+
+nav {
+	height: 31px;
+	width: 740px;
+	text-align: center;
+	line-height: 31px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.nav-element {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-family: "Georgia";
+	font-style: italic;
+	font-size: 12px;
+	color: #666666;
+}
+
+.menu {
+	margin-top: 30px;
+	width: 175px;
+	height: 403px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aside-menu {
+	margin-left: 6px;
+}
+
+.aside-element {
+	text-align: left;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 4px;
+	list-style-position: inside;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.aside-link {
+	text-decoration: none;
+	font-family: "Proxima Nova";
+	font-size: 12px;
+	color: #e64b4f;
+	padding-left: 6px;
+}
+
+.one {
+	list-style-image: url("imgs/person.png");
+}
+
+.two {
+	list-style-image: url("imgs/calendar.png");
+}
+
+.three {
+	list-style-image: url("imgs/message.png");
+}
+
+.four {
+	list-style-image: url("imgs/label.png");
+}
+
+article {
+	display: inline-block;
+	width: 550px;
+	height: 403px;
+	vertical-align: top;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+.caption {
+	height: 27px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e1e1e1;
+	margin-top: 8px
+}
+
+h2 {
+	font-family: "Proxima Nova";
+	font-size: 24px;
+	color: #777777;
+	text-align: left;
+	line-height: 19px;
+}
+
+.article {
+	font-size: 12px;
+	font-family: "Proxima Nova";
+	color: #777777;
+	text-align: left;
+	line-height: 18px;
+}
+
+.mimg, .aimg {
+	height: 475px;
+	margin-top: 20px;
+}
+
+.line {
+	background-image: url("imgs/background_line.png");
+	height: 5px;
+	width: 747px;
+	background-attachment: repeat-x;
+	margin: 0 auto;
+}
+
+.picture{
+	border: 5px solid #e1e1e1;
+	margin-top: 10px;
+}
+
+.contUnderline {
+	background-image: url("imgs/contentUnderline.gif");
+	background-attachment: no-repeat;
+	height: 1px;
+	width: 732px;
+	margin: 0 auto;
+}
+footer {
+	height: 52px;
+}
+
+.footer {
+	font-family: "Georgia";
+	font-style: italic;
+	font-size: 12px;
+	color: #666666;
+	margin-top: 13px;
 }
