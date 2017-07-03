@@ -1,0 +1,31 @@
+header {
+	height: 50px;
+	background-color: yellow;
+}
+
+footer {
+	height: 100px;
+	background-color: black;
+}
+
+main {
+	display: flex;
+	min-width: 640px;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+nav {
+	flex-basis: 320px;
+	flex-grow: 0;
+	background-color: red;
+}
+
+article {
+	height: 700px;
+	flex-grow: 1;
+	background-color: navy;
+}
+
+
+

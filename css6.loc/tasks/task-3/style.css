@@ -1,0 +1,29 @@
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    height: 600px;
+    position: relative;
+}
+
+.block {
+    width: 320px;
+    height: 180px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.blueblock {
+
+    height: 200px;
+    background-color: blue;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: baseline;
+    
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #dedede;
+}
+
+.block {
+    width: 160px;
+    height: 240px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.one {
+    height: 20px;
+    font-size: 10px;
+}
+
+.two {
+    height: 50px;
+    font-size: 20px;
+}
+
+.three {
+    height: 30px;
+    font-size: 15px;
+}
+
+.four {
+    height: 80px;
+    font-size: 40px;
+}
+
+/****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

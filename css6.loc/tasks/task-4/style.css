@@ -1,0 +1,55 @@
+/* предустановленные стили */
+.wrapper {
+    width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    position: absolute;
+}
+
+.corner {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.corner1 {
+    position: absolute;
+    background-color: blue;
+    bottom: 0px;
+    left:  0px;
+}
+
+.corner2 {
+    position: absolute;
+    background-color: firebrick;
+    bottom: 0px;
+    right:  0px;
+}
+
+.corner3 {
+    background-color: darkmagenta;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.corner4 {
+    background-color: lightcoral;
+    top: 0px;
+    left: 0px;
+}
+/**************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+

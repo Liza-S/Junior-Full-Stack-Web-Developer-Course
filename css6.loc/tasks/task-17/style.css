@@ -1,0 +1,38 @@
+body {
+    min-width: 1000px;
+}
+
+header{
+    height: 50px;
+    background-color: yellow;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+
+main {
+    display: flex; /* создаём контейнер */
+    flex-direction: row;
+    align-items: stretch; /* одинаковая высота колонок */
+}
+
+.menu {
+    flex-basis: 200px;
+    flex-grow: 0;
+    background-color: red;
+}
+
+.info {
+    flex-basis: 300px;
+    flex-grow: 0;
+    background-color: red;
+}
+
+article {
+    height: 700px; /* высота для наглядности*/
+    flex-grow: 1;
+    background-color: navy;
+}

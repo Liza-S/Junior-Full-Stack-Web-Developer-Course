@@ -1,0 +1,48 @@
+.main {
+    
+    width: 1024px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    padding: 25px;
+    
+}
+
+.block {
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 25px;
+    line-height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.block_1 {
+    display: none;
+}
+
+.block_2 { background-color: red; }
+.block_3 { background-color: orange;
+            visibility: hidden; }
+.block_4 { background-color: green; 
+            opacity: 0.5;}
+.block_5 { background-color: yellow; 
+            opacity: 0;}
+/************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
