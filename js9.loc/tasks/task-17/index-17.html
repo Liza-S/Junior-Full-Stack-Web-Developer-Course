@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Свойства и методы глобального объекта для работы с числами</title>
+        <link href="/tasks/task-17/style.css" type="text/css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        
+        <script type="text/javascript">
+        var bool = new Boolean(true);
+        var bool2 = Boolean (true);
+        var bool3 = true;
+
+        console.log(typeof bool);
+        console.log(typeof bool2);
+        console.log(typeof bool3);
+
+        console.log(bool);
+        console.log(bool2);
+        console.log(bool3);
+
+        console.log(5==5);
+        console.log(5===5);
+        console.log(1<2);
+
+        console.log(5 != 5); 
+        console.log(5!==5);
+        console.log(1>2);
+
+        console.log(!true);
+        console.log(!!true);
+
+        console.log(false || false || false);
+        console.log(false || true);
+
+        console.log(false && false);
+        console.log(false && true);
+
+        var number =5;
+        var number2 = 0;
+        var number3 = 6;
+        var string = '';
+        console.log(number && number3);
+        console.log(number && number2 && string);
+
+        console.log(string || number2);
+        console.log(string || number2 || number);
+        </script>
+        
+
+        
+        
+    </body> 
+</html>

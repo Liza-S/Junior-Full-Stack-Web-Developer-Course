@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Свойства и методы глобального объекта для работы с числами</title>
+        <link href="/tasks/task-16/style.css" type="text/css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        
+        <script type="text/javascript">
+            console.log(isNaN(NaN));
+            console.log(isNaN(undefined));
+            console.log(isNaN({}));
+            console.log(isNaN('строка'));
+            console.log(isNaN('12ABC'));
+
+            console.log(isNaN(true));
+            console.log(isNaN(null));
+            console.log(isNaN(37));
+            console.log(isNaN(37.78797));
+            console.log(isNaN(1/8));
+            console.log(isNaN('12'));
+            console.log(isNaN('12.89'));
+
+            console.log(parseFloat('12.7 xxxxxxxxxxxxxxxxxxxxxxxx'));
+            console.log(parseFloat('xxxx 17.67 xxxx'));
+
+            console.log(parseInt('12.7 xxxxxxxxxxxxxxxxxxxxxxxx'));
+
+            console.log(parseInt('xxxx 17.67 xxxx'));
+        </script>
+        
+
+        
+        
+    </body> 
+</html>
