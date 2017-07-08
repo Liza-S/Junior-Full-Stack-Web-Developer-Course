@@ -20,6 +20,11 @@ header {
 	vertical-align: middle;
 }
 
+@font-face {
+	font-family: Oswald;
+	src: url("/tasks/task-2/fonts/Oswald Bold.ttf");
+}
+
 h1 {
 	color: white;
 	font-family: "Oswald";
@@ -54,6 +59,11 @@ ul {
 	list-style-image: url("img/ok.png");
 	list-style-position: inside;
 	line-height: 36px;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("/tasks/task-2/fonts/OpenSans.ttf");
 }
 
 li {

@@ -42,7 +42,7 @@ a {
 
 @font-face {
 	font-family: Montserrat;
-	src="/1024/fonts/Montserrat-Regular.ttf"
+	src: url("/tasks/task-2/1024/fonts/Montserrat-Regular.ttf");
 }
 
 .nav-link {
@@ -85,6 +85,11 @@ h1 {
 	font-size: 34px;
 	color: white;
 	opacity: 0.5;
+}
+
+@font-face {
+	font-family: "Quicksand";
+	src: url("/tasks/task-2/1024/fonts/Quicksand-Bold.ttf");
 }
 
 .arrow {

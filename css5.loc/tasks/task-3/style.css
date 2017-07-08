@@ -27,6 +27,32 @@ header {
 	text-align: center;
 }
 
+@font-face {
+	font-family: "Ariston";
+	src: url("/tasks/task-3/fonts/Ariston Normal.ttf");
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("/tasks/task-3/fonts/Georgia Italic.ttf");
+}
+
+@font-face {
+	font-family: "Proxima Nova Regular";
+	src: url("/tasks/task-3/fonts/Proxima Nova Regular.ttf");
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: url("/tasks/task-3/fonts/Proxima Nova Regular Regular.ttf");
+}
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: url("/tasks/task-3/fonts/Proxima Nova Regular Semibold.ttf");
+}
+
+
 h1 {
 	font-family: "Ariston";
 	font-size: 34px;
