@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Аргументы функций</title>
+        <link href="/tasks/task-6/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function f(x, y) {
+            console.log(x);
+            console.log(y);
+        }
+        f(1, 2);
+        f(3, 4);
+        f('hello world', 33);
+
+        function f2(x, y) {
+            console.log(x);
+            console.log(y);
+        }
+        var a = ['third', 'fourth'];
+        f2.call(null, 'first', 'second');
+        f2.apply(null, a);
+        </script>
+
+
+    </body> 
+</html>

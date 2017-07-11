@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Копирование объектов</title>
+        <link href="/tasks/task-11/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+            var object = {
+                a: 1,
+                b: 2,
+                c: 3
+            }
+
+            var object2 = object;
+
+            object.a = 111;
+
+            console.log(object);
+            console.log(object2);
+
+            var object3 = {};
+            for (var i in object) {
+                object3 = object;
+            }
+            console.log(object3);
+        </script>
+        
+        
+    </body> 
+</html>

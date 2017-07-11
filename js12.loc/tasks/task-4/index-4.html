@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Создание свойств и методов объектов существующего объекта</title>
+        <link href="/tasks/task-3/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+           var obj = {};
+
+           obj.status = 'all done!';
+
+           obj.getStatus = function() {
+            console.log(this.status);
+           };
+
+           console.log(obj);
+
+
+           var person = {};
+
+           person.name = 'Jonh';
+           person['last name'] = 'Smith';
+           person.sex = 'male';
+           person.age = 19;
+           person.job = 'janitor';
+
+           person.getInfo = function() {
+                var string = 'My name - ' +this.name+' '+this['last name']+"\n\r"+'I am '+this.age;
+
+                console.log(string);
+           };
+
+            console.log(person);
+            person['getInfo']();
+        </script>
+        
+        
+    </body> 
+</html>

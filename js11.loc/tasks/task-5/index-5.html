@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Доступность функций</title>
+        <link href="/tasks/task-5/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        f();
+        function f() {
+            console.log('f');
+        }
+
+        var f1 = function (){
+            console.log('f1');
+        };
+        f1();
+
+        f2();
+        var f2 = new Function('console.log("f2");');
+        </script>
+
+
+    </body> 
+</html>

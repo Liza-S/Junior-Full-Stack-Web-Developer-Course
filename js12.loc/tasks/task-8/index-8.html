@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Механизм наследования, свойство prototype</title>
+        <link href="/tasks/task-8/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+        function foo() {
+            console.log(foo.prototype);
+            console.log(Number.prototype);
+        }
+
+        Number.prototype.invert = function() {
+            return - this.valueOf();
+        };
+
+        var number = 3;
+
+        console.log(number.invert()); 
+        </script>
+        
+        
+    </body> 
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример работы с замыканиями</title>
+        <link href="/tasks/task-15/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function createCouter(n) {
+            var court = n;
+
+            return function() {
+                return ++court;
+            };
+        }
+
+        var courter = createCouter(5);
+        console.log(courter());
+        </script>
+
+
+    </body> 
+</html>

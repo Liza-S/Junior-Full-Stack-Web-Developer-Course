@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Рекурсия</title>
+        <link href="/tasks/task-18/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function from1ToN(n) {
+            if (n < 1) {
+                return;
+            }
+
+            if (n > 1) {
+                from1ToN(n - 1);
+            }
+
+            console.log(n);
+        }
+
+        from1ToN(1);
+
+        function fib(n) {
+            if (n <= 0) {
+                return 0;
+            }
+
+            if (n == 1) {
+                return 1;
+            }
+
+            return fib(n-1)+fib(n-2);
+        }
+        fib(30);
+
+        function fibAlt(n) {
+            
+            if (n < 1) {
+                return 0;
+            }
+
+            var current = 1, previous = 0, buffer;
+            for (var i = 1; i < n; i++) {
+                buffer = current + previous;
+                previous = current;
+                current = buffer;
+            }
+            return current;
+        }
+
+        var start, end;
+        start = Date.now();
+        console.log(fib(40));
+        end = Date.now();
+        console.log((end - start) / 1000);
+
+        start = Date.now();
+        console.log(fibAlt(40));
+        end = Date.now();
+        console.log((end - start) / 1000);
+        </script>
+
+
+    </body> 
+</html>

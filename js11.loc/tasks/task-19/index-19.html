@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Рекурсивные алгоритмы</title>
+        <link href="/tasks/task-19/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function factorial(n) {
+            if (n > 1) 
+                return n *= factorial(n - 1);
+            else return n;
+        }
+        console.log(factorial(4));
+
+
+        function sumN(n) {
+            if (n < 10) {
+                return n;
+            } else return n % 10 + parseInt(sumN(n / 10));
+        }
+        console.log(sumN(123));
+
+
+		function simpleN(n,d = 2) {
+			 // d- дополнительный параметр(делитель). При вызове должен быть равен 2
+			if (n < 2) {
+				return false;
+			}
+
+			else if (n == 2) {
+				return true;
+			}
+
+			else if (n % d == 0)
+			{
+				return false;
+			}
+
+			else if (d < n / 2) {
+				return simpleN(n, d+1);
+			} else return true;
+		}
+		console.log(simpleN(124));
+        </script>
+
+
+    </body> 
+</html>

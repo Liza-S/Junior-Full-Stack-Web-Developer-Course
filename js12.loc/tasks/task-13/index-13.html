@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Проверка существования свойств</title>
+        <link href="/tasks/task-12/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+            
+            // создаём объект
+            var obj = {
+                prop: true,
+                
+                foo: function() {}
+            };
+            
+            // эти свойства существуют, вернёт true
+            console.log( 'prop' in obj );
+            console.log( 'foo' in obj );
+            
+            // такого свойства нет
+            console.log( 'val' in obj );
+            
+            obj.foo();
+            obj.val(); // вызовет ошибку!
+            
+            
+        </script>
+        
+        
+    </body> 
+</html>

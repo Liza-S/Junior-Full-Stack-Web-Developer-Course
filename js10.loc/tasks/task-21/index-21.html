@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Цикл FOR практика</title>
+        <link href="/tasks/task-19/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+        var price = 2000;
+        var goods = 3;
+        var sale;
+        if (goods >= 3 && goods < 5) {
+            sale = (price * 10) / 100;
+            price = price - sale;       
+            }
+        
+        if (goods > 5 && goods < 7) {
+            sale = (price * 20) / 100;
+            price = price - sale;
+        }
+            
+        
+        if (goods > 7 && goods < 10) {
+            sale = (price * 25) / 100;
+            price = price - sale;
+        }
+        price = price * goods;
+        console.log(price);       
+        </script>
+        
+        
+    </body> 
+</html>
+
+
+

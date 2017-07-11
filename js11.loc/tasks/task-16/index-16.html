@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Функции высшего порядка. Мемоизация.</title>
+        <link href="/tasks/task-16/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function memoize(f) {
+            var cache = {};
+
+            return function() {
+
+                var n = arguments[0];
+                if (n in cache) {
+                    console.log('from cache');
+                    return cache[n];
+                } else {
+                    console.log('new calc');
+                    return cache[n] = f.call(null, n);
+                }
+            }
+        }
+
+        function factorialN(n) {
+            n = parseInt(n);
+
+            if (n < 0) {
+                return 0;
+            }
+
+            for (var i = 1, factorial = 1; i <= n; i++) {
+                factorial *= i;
+            }
+
+            return factorial;
+        }
+
+        var mFactorial = memoize(factorialN);
+
+        console.log(mFactorial(5));
+        console.log(mFactorial(5));
+        </script>
+
+
+    </body> 
+</html>

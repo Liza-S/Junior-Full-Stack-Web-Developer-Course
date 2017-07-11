@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Альтернативный вызов функций</title>
+        <link href="/tasks/task-4/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function f1() {
+            console.log('f1');
+        }
+        f1.call();
+        f1.apply();
+
+        var f2 = function () {
+            console.log('f2');
+        };
+        f2.call();
+        f2.apply();
+
+        var f3 = new Function("console.log('f3');");
+        f3.call();
+        f3.apply();
+        </script>
+
+
+    </body> 
+</html>

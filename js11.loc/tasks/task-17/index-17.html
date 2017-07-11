@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Домашнее задание</title>
+        <link href="/tasks/task-17/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function memoize(f) {
+            var cache = {};
+
+            return function() {
+
+                var n = arguments[0];
+                if (n in cache) {
+                    console.log('from cache');
+                    return cache[n];
+                } else {
+                    console.log('new calc');
+                    return cache[n] = f.apply(this, arguments);
+                }
+            }
+        }
+
+        function multiply() {
+            var result = 1;
+                for (i = 0; i < arguments.length; i++) {
+                    result *= arguments[i];
+                    
+                }
+            return result;
+        }
+
+        var multiply = memoize(multiply);
+
+        console.log(multiply(5, 4, 7));
+        console.log(multiply(5, 4, 7));
+        </script>
+
+
+    </body> 
+</html>

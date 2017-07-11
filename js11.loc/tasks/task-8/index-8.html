@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arguments</title>
+        <link href="/tasks/task-8/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function f(x, y) {
+            console.log(x + ', ' + y);
+        }
+
+        f(1,2);
+        f(1);
+        f(1,2,3);
+
+        function outMax() {
+            if (arguments.length > 0) {
+                for (var i = 1, max = arguments[0]; i < arguments.length; i++) {
+                    max = arguments[i] > max ? arguments[i] : max;
+                }
+                console.log(max);
+            }
+        }
+
+        outMax(1,2);
+        outMax(1);
+        outMax();
+        outMax(1, 2, 3, 4, 6, 7, 3, 8, 10, 15,9);
+        outMax(20, 2, 3, 4, 6, 7, 3, 8, 10, 15,9);
+
+        function f2(x) {
+            console.log(x);
+            arguments[0] = null;
+            console.log(x);
+        }
+        f2(5);
+        </script>
+
+
+    </body> 
+</html>

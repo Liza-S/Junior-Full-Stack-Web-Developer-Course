@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Функции как пространства имен. Мгновенно вызываемые функции</title>
+        <link href="/tasks/task-11/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        var a = 2;
+        function f2() {
+            console.log(a);
+        }
+        f2(a);
+
+        (function mymodule() {
+            var a =1, b = 3;
+
+            function f1() {
+                console.log(a);
+            }
+
+            function f2() {
+                console.log(b);
+            }
+
+            f1();
+            f2();
+        }());
+        </script>
+
+
+    </body> 
+</html>

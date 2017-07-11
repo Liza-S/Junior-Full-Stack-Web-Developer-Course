@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с функциями</title>
+        <link href="/tasks/task-7/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        function sum(a, b) {
+            console.log(a+b);
+        }
+        sum(3, 9);
+
+        function inv(a) {
+            a = -a;
+            console.log(a);
+        }
+        inv(-30);
+
+        function getAbs(a) {
+            console.log(Math.abs(a));
+        }
+        getAbs(-8);
+
+        function getBig(a, b) {
+            if (b > a) {
+                console.log(b);
+            }
+
+            if (a > b) {
+                console.log(a);
+            }
+        }
+        getBig(4,9);
+
+        function getSmall(a, b) {
+            if (b < a) {
+                console.log(b);
+            }
+
+            if (a < b) {
+                console.log(a);
+            }
+        }
+        getSmall(8,5);
+        </script>
+
+
+    </body> 
+</html>

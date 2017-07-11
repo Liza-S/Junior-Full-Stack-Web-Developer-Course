@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Область видимости</title>
+        <link href="/tasks/task-9/style.css" type="text/css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+
+        <script type="text/javascript">
+        var g = 5;
+        function outer_function(x) {
+            var y = 3;
+
+            function inner_function() {
+                var z = 8;
+                console.log('inner_function x: ' + x);
+                console.log('inner_function z: ' + z);
+                console.log('inner_function y: ' + y);
+                console.log('inner_function g: ' + g);
+            }
+            inner_function();
+            console.log('outer_function x: ' + x);
+            console.log('outer_function y: ' + y);
+            console.log('outer_function g: ' + g);
+        }
+        outer_function(6);
+
+        console.log('global g ' + g);
+        </script>
+
+
+    </body> 
+</html>

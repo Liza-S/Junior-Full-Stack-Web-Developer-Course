@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Создание свойств и методов объектов</title>
+        <link href="/tasks/task-2/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+        var person = {
+            name:'Jonh',
+            'last name': 'Smith',
+            sex: 'male',
+            age: 19,
+            job: 'janitor',
+
+            getInfo: function() {
+                var string = 'My name - ' +this.name+' '+this['last name']+"\n\r"+'I am '+this.age;
+
+                console.log(string);
+            }
+        };
+
+        console.log(person.sex);
+        console.log(person['sex']);
+        console.log(person['last name']);
+        person.getInfo();
+        person['getInfo']();
+        </script>
+        
+        
+    </body> 
+</html>
