@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Math</title>
+        <link href="/tasks/task-28/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	function root3(a) {
+        		console.log(Math.cbrt(a));
+        	}
+        	root3(27);
+
+        	function sinDeg(degree) {
+        		var radian = (degree * Math.PI)/180;
+        		console.log(Math.sin(radian));
+        	}
+        	sinDeg(90);
+
+        	function random2(min, max) {
+        		console.log(Math.random() * (max - min) + min);
+        	}
+        	random2(5,9);
+
+        	function averageGeom(a, b) {
+        		console.log(Math.sqrt(a*b));
+        	}
+        	averageGeom(8,4);
+
+        	function distance(ax, ay, bx, by) {
+        		console.log(Math.sqrt((Math.pow((bx-ax),2)+Math.pow((by+ay),2))));
+        	}
+        	distance(3,7,9,6);
+        </script>
+    </body> 
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Регистрация через модальные окна</title>
+        <link href="/tasks/task-9/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        while(true) {
+            var user = {};
+            user.name = prompt('Ваше имя:', 'Имя');
+            user.lastName = prompt('Ваша фамилия:', 'Фамилия');
+            user.tel = prompt('Ваш номер телефона', 'телефон');
+            user.e_mail = prompt('Ваш e-mail', 'e-mail');
+
+            var con = confirm('Вы верно ввели данные?')
+            if (con == true) {
+                alert("Ваше имя: " + user.name +' '+ "Ваша фамилия: " + user.lastName + ' '+"Ваш телефон: " + user.tel +' '+ "Ваш e-mail: " + user.e_mail);
+                break;
+            }
+            if (con == false) {
+
+            }
+        }
+        console.log(user);
+        </script>
+        
+        
+    </body> 
+</html>

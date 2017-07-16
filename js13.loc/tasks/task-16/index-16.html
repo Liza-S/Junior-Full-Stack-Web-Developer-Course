@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Array.splice</title>
+        <link href="/tasks/task-16/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script type="text/javascript">
+        	var a = [1,2,3];
+        	var b = [4,5,6];
+        	var c = [7,8,9];
+        	var d = [10,11,12];
+
+        	a.splice(3, 0, 10);
+        	console.log(a);
+
+        	b.splice(2, 1);
+        	console.log(b);
+
+        	c.splice(0, 1);
+        	console.log(c);
+
+        	d.splice(0, 0, 14);
+        	console.log(d);
+        </script>
+        
+        
+    </body> 
+</html>

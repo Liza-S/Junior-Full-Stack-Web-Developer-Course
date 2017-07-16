@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Сортировка объектов</title>
+        <link href="/tasks/task-13/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var staff = [{age: 25, experience: 3}, {age: 36, experience: 7}, {age: 28, experience: 2}, {age: 33, experience: 6}, {age: 30, experience: 4}, {age: 32, experience: 7}, {age: 36, experience: 6}, {age: 26, experience: 1}, {age: 29, experience: 4}, {age: 33, experience: 1}, {age: 34, experience: 1}, {age: 28, experience: 5}, {age: 28, experience: 5}, {age: 26, experience: 2}, {age: 28, experience: 6}, {age: 28, experience: 1}, {age: 37, experience: 4}, {age: 31, experience: 1}, {age: 28, experience: 3}, {age: 26, experience: 1}, {age: 34, experience: 7}, {age: 30, experience: 1}, {age: 32, experience: 5}, {age: 29,  experience: 7}, {age: 31, experience: 7}, {age: 36, experience: 2}, {age: 33, experience: 3}, {age: 37, experience: 6}, {age: 33, experience: 5}, {age: 40, experience: 4}, {age: 27, experience: 2}];
+
+        	staff.sort(function(a, b) {
+        		return a.age > b.age ? 1 : -1;
+            });
+
+
+        	console.log(staff); 
+        </script>
+    </body> 
+</html>

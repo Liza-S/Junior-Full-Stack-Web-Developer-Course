@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Таймеры</title>
+        <link href="/tasks/task-10/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        setTimeout(function() {
+            console.log('hello');
+        }, 2000);
+
+        function test() {
+            console.log('hello');
+        }
+        setTimeout(test, 3000);
+
+        function test(x,y) {
+            console.log('x + y = ', x+y);
+        }
+
+        setTimeout(function() {
+            test(5, 10);
+        }, 4000);
+
+        function test(x, y) {
+            console.log('x + y = ', x+y);
+        }
+
+        setTimeout(test, 5000, 5, 10);
+
+        var timer = setTimeout(function() {
+            console.log('hello');
+        }, 6000);
+
+        clearInterval(timer);
+        </script>
+        
+        
+    </body> 
+</html>

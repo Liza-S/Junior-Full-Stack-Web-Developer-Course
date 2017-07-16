@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Array.prototype</title>
+        <link href="/tasks/task-18/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var a = [0, 1, 2, 3, 4, 5];
+
+        	Array.prototype.increaseTwo = function() {
+        		var newArray = [];
+        		for (var index in this) {
+        			newArray[index] = this[index] *2;
+        		}
+        		return newArray;
+        	}
+
+        	console.log(a.increaseTwo());
+        </script>
+    </body> 
+</html>

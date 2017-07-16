@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Date</title>
+        <link href="/tasks/task-2/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	function getLastDayOfMonth(year, month) {
+        		var date = new Date(year, month + 1, 0);
+  				return date.getDate();
+        	}
+        	console.log(getLastDayOfMonth(2012, 1));
+
+        	function getSecondsToday() {
+        		var d = new Date();
+  				return d.getHours() * 3600 + d.getMinutes() * 60 + d.getSeconds();
+        	}
+        	console.log(getSecondsToday());
+
+        	function getSecondsToTomorrow() {
+        		var now = new Date();
+				var tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1);
+				var diff = tomorrow - now; 
+			    return Math.round(diff / 1000); 
+        	}
+        	console.log(getSecondsToTomorrow());
+
+        	function formatDate(date) {
+
+				var dd = date.getDate();
+				if (dd < 10) dd = '0' + dd;
+
+				var mm = date.getMonth() + 1;
+				if (mm < 10) mm = '0' + mm;
+
+				var yy = date.getFullYear() % 100;
+				if (yy < 10) yy = '0' + yy;
+
+				return dd + '.' + mm + '.' + yy;
+			}
+			var d = new Date(2011, 7, 3);
+			console.log(formatDate(d));
+
+			function getWeekDay(date) {
+				var days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+				return days[date.getDay()];
+			}
+			console.log(getWeekDay(d));
+        </script>
+        
+        
+        
+    </body> 
+</html>

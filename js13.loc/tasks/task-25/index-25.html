@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Многомерные массивы</title>
+        <link href="/tasks/task-25/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var table = new Array(10);
+        	for (var i = 0; i < table.length; i++) {
+        		table[i] = new Array(10);
+        	}
+        	for (var row = 0; row <table.length; row++) {
+        		for (col = 0; col < table[row].length; col++) {
+        			table[row][col] = row * col;
+        		}
+        	}
+
+        	var product = table[5][7];
+            console.log(product);
+        </script>
+        
+        
+        
+    </body> 
+</html>

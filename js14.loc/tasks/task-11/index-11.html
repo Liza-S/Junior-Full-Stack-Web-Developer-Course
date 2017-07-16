@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с таймерами</title>
+        <link href="/tasks/task-11/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        var con1;
+        var con2
+        setTimeout(function() {
+            con1 = confirm("Хотите ли вы быть перенаправленным на сайт партнера?");
+            if (con1 == true) {
+                setTimeout(function() {
+                    window.location.replace('https://google.com.ua/');
+                }, 2000);
+            }
+            else setTimeout(function() {
+                con2 = confirm("Открыть ли сайт партнера в новой вкладке");
+                if (con2 ==true) {
+                    setTimeout(function() {
+                        window.open('https://google.com.ua/');
+                    }, 2000);
+                }
+            }, 5000);
+        }, 10000);
+        
+        </script>
+        
+        
+    </body> 
+</html>

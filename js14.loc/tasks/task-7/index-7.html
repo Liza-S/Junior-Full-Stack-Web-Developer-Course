@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Глобальные переменные и Window</title>
+        <link href="/tasks/task-7/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        var x = 5;
+        function y() {
+            var x = 3;
+            console.log(x);
+            console.log(window.x);
+        }
+        y();
+        </script>
+        
+        
+    </body> 
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Array.prototype</title>
+        <link href="/tasks/task-19/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var a = [3, 9, 8];
+
+        	Array.prototype.average = function() {
+        			/*var sum = 0;
+        			for (var i in this) {
+        				for (var i = 0; i < this[i]; i++ ) {
+		        			if (typeof this[i] == 'number') {
+		        				for (var i = 0; i < this[i]; i++ ) sum += this[i];
+
+				            	return sum == 0 ? sum : sum / this.length;
+		        			}
+				            if (typeof this[i] !== 'number') {return NaN;} 
+				        }
+        		}
+        	}*/
+
+        	
+        	var sum = 0;
+
+        	for (var i= 0; i < this.length; i++) {
+
+//console.log(i);
+
+        		if (typeof this[i] != 'number')
+        		{
+        			
+        			return NaN; 
+        		}
+        		
+        		sum = sum + this[i];
+        		
+        	}
+        	//console.log(sum);
+        	var res = sum / this.length;
+        	//console.log(sum, res);
+        	return res;
+        }
+         
+        	console.log(a.average());
+        </script>
+        
+        
+        
+    </body> 
+</html>

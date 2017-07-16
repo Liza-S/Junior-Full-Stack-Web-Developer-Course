@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Обход разреженного массива</title>
+        <link href="/tasks/task-4/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var a = [];
+
+        	a[0] = 1;
+        	a[2] = 2;
+
+        	for (var index = 0; index < a.length; index++) {
+        		console.log('a['+index+'] = ' +[index]);
+        	}
+
+        	var a = [];
+
+        	a[0] = 1;
+        	a[2] = 2;
+
+        	for(var index in a) {
+        		console.log('a['+index+'] = ' +a[index]);
+        	}
+        </script>
+        
+        
+        
+    </body> 
+</html>

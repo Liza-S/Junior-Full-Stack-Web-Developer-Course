@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Объект Navigator</title>
+        <link href="/tasks/task-6/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        alert(window.navigator.userAgent);
+        if ((window.navigator.userAgent.indexOf("MSIE")) || (window.navigator.userAgent.indexOf("rv:"))) {
+            window.location.replace('https://www.google.ru/chrome/browser/desktop/');
+        }  
+        </script>
+        
+        
+    </body> 
+</html>

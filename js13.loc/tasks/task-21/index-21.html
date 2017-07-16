@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с Array.prototype</title>
+        <link href="/tasks/task-21/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var a = ['sdsd', 'klk', 'nhj', 'jgj', 'ter', 'sdsg'];
+
+        	Array.prototype.upperCase = function() {
+        		var newArray = [];
+        		for (var index in this) {
+        			newArray = this.slice(0);
+        		}
+        		for (var index = 0; index < newArray.length; index++)
+        		{
+        			newArray = newArray.toUpperCase([index]);
+        			return newArray;
+        		}
+        	}
+
+        	console.log(a.upperCase());
+        </script>
+        
+        
+        
+    </body> 
+</html>

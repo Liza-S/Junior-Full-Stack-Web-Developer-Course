@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Работа с интервалами</title>
+        <link href="/tasks/task-13/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        
+        <script>
+        var c;
+        var i = 0;
+        var t = setInterval(function(){
+            c = confirm("Нужна ли вам консультация?");
+            if (c == true) {
+                window.location.replace('https://google.com.ua/');
+            }
+            else i++;
+            if (i == 3) {
+                clearInterval(t);
+            }
+        }, 5000);
+
+        
+        </script>
+        
+        
+    </body> 
+</html>

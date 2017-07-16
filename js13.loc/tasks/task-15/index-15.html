@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Метод Array.splice</title>
+        <link href="/tasks/task-15/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var myFish = ['ангел', 'клоун', 'мандарин', 'хирург'];
+
+        	var removed = myFish.splice(2, 0, 'барабанщик');
+        	console.log(removed);
+        	console.log(myFish);
+
+        	removed = myFish.splice(3, 1);
+        	console.log(removed);
+        	console.log(myFish);
+
+        	removed = myFish.splice(2, 1, 'телескоп');
+        	console.log(removed);
+        	console.log(myFish);
+
+        	var removed = myFish.splice(0, 2, 'попугай', 'анемон', 'голубая');
+        	console.log(removed);
+        	console.log(myFish);
+
+        	removed = myFish.splice(3, Number.MAX_VALUE);
+        	console.log(removed);
+        	console.log(myFish);
+        </script>
+        
+        
+        
+    </body> 
+</html>

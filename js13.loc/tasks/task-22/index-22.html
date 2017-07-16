@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Объекты, «подобные массивам»</title>
+        <link href="/tasks/task-22/style.css" type="text/css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>
+        <script type="text/javascript">
+        	var aLike = {
+        		'0' : 1,
+        		'1' : 2,
+        		'2' : 3,
+        		'3' : 4,
+        		'4' : 5, 
+        		'lenght' : 5
+        	}
+
+        	var sliceResult = Array.prototype.slice.call(aLike, 0, 2);
+        	console.log(sliceResult);
+
+        	var joinResult = Array.prototype.join.call(aLike, ', ');
+        	console.log(joinResult);
+        </script>
+        
+        
+        
+    </body> 
+</html>
