@@ -1,0 +1,32 @@
+<?php include 'ajax.php'; ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Формы и AJAX</title>
+        <link href="/tasks/task-5/style.css" type="text/css" rel="stylesheet">
+        <script src="/www/jquery-3.2.1.min.js"></script>
+        <script src="/tasks/task-5/script.js"></script>
+        
+        
+    </head>
+    
+    <body>
+        
+        <div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+            
+            <div class="jsblock__inner">
+                <form action="/"  onsubmit="return false;">
+                    <input type="text" name='login' value='sdf' placeholder="Логин" id="login" />
+                    <input type="text" name='pass' placeholder="Пароль" id="pass" />
+                    <input type="submit" id="submit" />
+                </form>
+            </div>
+            
+        </div>
+
+
+        
+        
+    </body> 
+</html>

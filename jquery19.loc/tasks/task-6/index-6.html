@@ -1,0 +1,48 @@
+<?php include 'ajax.php'; ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Страница "Список сотрудников"</title>
+        <link href="/tasks/task-6/style.css" type="text/css" rel="stylesheet">
+        <script src="/www/jquery-3.2.1.min.js"></script>
+        <script src="/tasks/task-6/script.js"></script>
+        
+        
+    </head>
+    
+    <body>
+        
+        <!--<div class="jsblock" >
+            <div class="jsblock__inner">"F12" - Открыть консоль браузера</div>
+        </div>-->
+        <div class="employee">
+            <form action="/"  id="form" onsubmit="return false;">
+                <input type="text" name='name' placeholder="Name" id="name" />
+                <input type="text" name='family' placeholder="LastName" id="family" />
+                <input type="number" name='age' placeholder="Age" id="age" />
+                <input type="number" name="salary" placeholder="Salary" id="salary">
+                <input type="radio" name="sex" value="male" id="male">Male
+                <input type="radio" name="sex" value="female" id="female">Female
+                <input type="submit" id="submit" />
+                <input type="hidden" name='command' value="add" />
+            </form>
+
+            <form action="/" id="chSalary" onsubmit="return false" >
+                <input type="submit" value="Изменить зарплату" id="chSalButton">
+                <input type="number" name="OldSalary" id="oldSalary" placeholder="OldSalary">
+                <input type="number" name="newSalary" id="newSalary" placeholder="NewSalary">
+                <input type="number" name="id" id="id" placeholder="Id">
+                <input type="hidden" name='command' value="changeSalary" />
+            </form>
+            <form action="/" id="dismissal" onsubmit="return false">
+                <input type="submit" value="Удалить сотрудника" id="dismissalButton">
+                <input type="checkbox" name="dismissal" id="disCheck" value="dismissal">Уволить
+                <input type="number" name="id" id="iddis" placeholder="Id">
+                <input type="hidden" name='command' value="dismissal" />
+            </form>
+            <div class="list-employee">
+                
+            </div>
+        </div>
+    </body> 
+</html>

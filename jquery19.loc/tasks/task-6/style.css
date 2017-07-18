@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.jsblock {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.jsblock__inner {
+    width: 30%;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.redblock {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    display: inline-block;
+    margin: 10px;
+}
+
+.blueblock {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+}
+
+td {
+    border: 1px solid black;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
