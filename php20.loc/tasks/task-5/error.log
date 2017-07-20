@@ -1,0 +1,67 @@
+[19-Jul-2017 16:28:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<', expecting end of file in D:\OpenServer\domains\php20.loc\tasks\task-6\index-6.html on line 19
+[19-Jul-2017 16:28:53 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=', expecting end of file in D:\OpenServer\domains\php20.loc\tasks\task-6\index-6.html on line 19
+[19-Jul-2017 16:28:54 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=', expecting end of file in D:\OpenServer\domains\php20.loc\tasks\task-6\index-6.html on line 19
+[19-Jul-2017 16:35:04 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'личное' (T_STRING) in D:\OpenServer\domains\php20.loc\tasks\task-7\index-7.html on line 37
+[19-Jul-2017 16:52:26 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=' in D:\OpenServer\domains\php20.loc\tasks\task-8\index-8.php on line 11
+[19-Jul-2017 17:13:05 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$v' (T_VARIABLE) in D:\OpenServer\domains\php20.loc\tasks\task-13\index-13.php on line 3
+[19-Jul-2017 17:13:26 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php20.loc\tasks\task-13\index-13.php on line 5
+[19-Jul-2017 17:14:47 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$s' (T_VARIABLE), expecting ',' or ';' in D:\OpenServer\domains\php20.loc\tasks\task-13\index-13.php on line 6
+[19-Jul-2017 17:22:52 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php20.loc\tasks\task-15\index-15.php on line 5
+[19-Jul-2017 17:23:32 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\OpenServer\domains\php20.loc\tasks\task-15\index-15.php on line 7
+[19-Jul-2017 17:55:46 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 5
+[19-Jul-2017 17:55:46 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 5
+[19-Jul-2017 17:56:21 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 5
+[19-Jul-2017 17:56:21 Europe/Kiev] PHP Warning:  A non-numeric value encountered in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 5
+[19-Jul-2017 17:58:06 Europe/Kiev] PHP Parse error:  syntax error, unexpected ''56'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 13
+[19-Jul-2017 17:58:21 Europe/Kiev] PHP Parse error:  syntax error, unexpected '56' (T_LNUMBER), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 15
+[19-Jul-2017 17:58:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected '56' (T_LNUMBER), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 15
+[19-Jul-2017 17:58:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected '56' (T_LNUMBER), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 15
+[19-Jul-2017 18:09:20 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-4\index-4.php on line 15
+[19-Jul-2017 18:15:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:15:40 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<' in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:15:49 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'Эквивалент' (T_STRING), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 6
+[19-Jul-2017 18:21:17 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:21:18 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:21:35 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:22:25 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 6
+[19-Jul-2017 18:24:32 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:26:27 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:26:28 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:26:28 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:26:28 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:26:28 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:00 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:00 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:01 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:01 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:01 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:46 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:47 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:47 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:47 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:47 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:27:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in D:\OpenServer\domains\php21.loc\tasks\task-5\index-5.php on line 5
+[19-Jul-2017 18:59:21 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function is_boolean() in D:\OpenServer\domains\php21.loc\tasks\task-10\index-10.php:13
+Stack trace:
+#0 D:\OpenServer\domains\php21.loc\index.php(22): include()
+#1 {main}
+  thrown in D:\OpenServer\domains\php21.loc\tasks\task-10\index-10.php on line 13
+[19-Jul-2017 19:08:18 Europe/Kiev] PHP Parse error:  syntax error, unexpected ';' in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:13:27 Europe/Kiev] PHP Parse error:  syntax error, unexpected '(object)' (object) (T_OBJECT_CAST), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:13:43 Europe/Kiev] PHP Parse error:  syntax error, unexpected '(object)' (object) (T_OBJECT_CAST), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:13:44 Europe/Kiev] PHP Parse error:  syntax error, unexpected '(object)' (object) (T_OBJECT_CAST), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:14:06 Europe/Kiev] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:14:19 Europe/Kiev] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[19-Jul-2017 19:16:23 Europe/Kiev] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[20-Jul-2017 12:34:22 Europe/Kiev] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[20-Jul-2017 12:34:28 Europe/Kiev] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 3
+[20-Jul-2017 12:53:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function epmty() in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php:18
+Stack trace:
+#0 D:\OpenServer\domains\php21.loc\index.php(22): include()
+#1 {main}
+  thrown in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 18
+[20-Jul-2017 13:03:26 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in D:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 22
+[20-Jul-2017 13:20:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-12\index-12.php on line 7
+[20-Jul-2017 13:44:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$array' (T_VARIABLE), expecting ',' or ';' in D:\OpenServer\domains\php21.loc\tasks\task-12\index-12.php on line 7

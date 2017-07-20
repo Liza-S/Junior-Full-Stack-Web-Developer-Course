@@ -1,0 +1,33 @@
+[12-Jun-2017 09:55:33 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function pov() in E:\OpenServer\domains\php20.loc\tasks\task-12\index-12.php:12
+Stack trace:
+#0 E:\OpenServer\domains\php20.loc\index.php(22): include()
+#1 {main}
+  thrown in E:\OpenServer\domains\php20.loc\tasks\task-12\index-12.php on line 12
+[12-Jun-2017 13:40:25 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:40:25 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:40:56 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:40:56 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:42:15 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 9
+[12-Jun-2017 13:42:34 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 9
+[12-Jun-2017 13:42:36 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 9
+[12-Jun-2017 13:42:54 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 9
+[12-Jun-2017 13:43:27 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 9
+[12-Jun-2017 13:43:37 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:43:37 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:44:42 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:44:42 Europe/Moscow] PHP Warning:  A non-numeric value encountered in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 7
+[12-Jun-2017 13:51:59 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.6' (T_DNUMBER), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 4
+[12-Jun-2017 13:54:02 Europe/Moscow] PHP Parse error:  syntax error, unexpected ''56'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 6
+[12-Jun-2017 13:57:54 Europe/Moscow] PHP Parse error:  syntax error, unexpected '56' (T_LNUMBER), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 10
+[12-Jun-2017 14:04:21 Europe/Moscow] PHP Parse error:  syntax error, unexpected '56' (T_LNUMBER), expecting ',' or ';' in E:\OpenServer\domains\php21.loc\tasks\task-2\index-2.php on line 10
+[13-Jun-2017 15:55:38 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$b' (T_VARIABLE) in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 5
+[13-Jun-2017 15:59:48 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function foo() in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php:4
+Stack trace:
+#0 E:\OpenServer\domains\php21.loc\index.php(22): include()
+#1 {main}
+  thrown in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
+[13-Jun-2017 16:04:56 Europe/Moscow] PHP Notice:  Undefined variable: arr in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
+[13-Jun-2017 16:06:45 Europe/Moscow] PHP Warning:  fopen() expects at least 2 parameters, 1 given in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
+[13-Jun-2017 16:06:56 Europe/Moscow] PHP Warning:  fopen() expects at least 2 parameters, 1 given in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
+[13-Jun-2017 16:12:43 Europe/Moscow] PHP Warning:  fopen() expects at least 2 parameters, 1 given in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
+[13-Jun-2017 16:12:44 Europe/Moscow] PHP Warning:  fopen() expects at least 2 parameters, 1 given in E:\OpenServer\domains\php21.loc\tasks\task-11\index-11.php on line 4
