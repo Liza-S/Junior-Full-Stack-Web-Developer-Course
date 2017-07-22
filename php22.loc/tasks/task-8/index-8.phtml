@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Функции для работы с функциями</title>
+        <link href="/tasks/task-8/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	function f($a, $b){
+        		var_dump($a + $b);
+        	}
+
+        	call_user_func('f', 5, 7);
+        	call_user_func_array('f', [7,8]);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

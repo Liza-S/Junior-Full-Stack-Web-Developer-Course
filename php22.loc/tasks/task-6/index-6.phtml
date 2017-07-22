@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Функции</title>
+        <link href="/tasks/task-6/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	function f(){
+        		function fInner(){
+        			echo 'hello. I\'m fInner()';
+        		}
+        	}
+
+        	if (function_exists('finner')) {
+        		fInner();
+        	}
+        	f();
+        	f();
+
+        	if (function_eists('finner')) {
+        		fInner();
+        	}
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

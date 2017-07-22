@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание №11</title>
+        <link href="/tasks/task-11/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	$array = [1,3,4,'a' => 5, 'b' => 6];
+        	function keys($array) {
+        		foreach ($array as $key => $value) {
+        			if (gettype($key) == 'string') {
+        				echo $key , '<br>';
+        			}
+        		}
+        	}
+        	keys($array);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание №13</title>
+        <link href="/tasks/task-13/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	$array = [1,2,3,[5,6,7,[8,0,8]]];
+
+        	function array_level($array)
+        	{
+        		$lvl = 0;
+        		foreach ($array as $value) {
+        			if (is_array($value)) {
+        				$lvl_array = array_level($value);
+        				$lvl = ($lvl > $lvl_array) ? $lvl : $lvl_array;
+        			}
+        		}
+        		return ++$lvl;
+        	}
+        	echo array_level($array);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

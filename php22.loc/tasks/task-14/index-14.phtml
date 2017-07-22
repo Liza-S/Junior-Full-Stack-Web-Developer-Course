@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание №14</title>
+        <link href="/tasks/task-14/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	$array = [1,2,3,1];
+        	function deplicate($array)
+        	{
+        		$array2 = array_unique($array);
+        		$array_new = array_diff_assoc($array, $array2);
+        		print_r($array_new);
+        	}
+        	deplicate($array);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

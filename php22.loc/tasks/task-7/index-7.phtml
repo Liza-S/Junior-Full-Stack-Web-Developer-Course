@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Аргументы функций</title>
+        <link href="/tasks/task-7/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+
+        	define("MY_CONSTANTS", 1);
+
+        	function f() {
+        		$num = func_num_args();
+        		$argsAsArray = func_get_args();
+        		$arg0 = func_get_arg(0);
+        		var_dump($num,  $argsAsArray, $arg0);
+        	}
+
+    		f(1,2,3,3,5);
+    		function ff() : float {
+
+    		}
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

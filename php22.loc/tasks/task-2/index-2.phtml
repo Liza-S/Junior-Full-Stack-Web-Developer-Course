@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Особенности управляющих конструкций в PHP</title>
+        <link href="/tasks/task-2/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	$a = 5;
+        	if ($a == 1) {
+        		//код
+        	} elseif ($a == 2) {
+        		//код
+        	} elseif ($a == 3) {
+        		//код
+        	} elseif ($a == 4) {
+        		//код
+        	}
+        	else {
+        		//код
+        	}
+
+        	$a =[1,2,3,4,5,6,7,8];
+
+        	foreach ($a as $value) {
+        		var_dump($value);
+        	}
+
+        	foreach ($a as $key => $value) {
+        		var_dump("key: ". $value);
+        	}
+
+        	function f() {
+        		var_dump('call');
+        		return [1,2,3,4,5,6,7,8];
+        	}
+        	$array = f();
+        	foreach ($array as $value) {
+        		var_dump($value);
+        	}
+
+        	foreach (f() as $value) {
+        		var_dump($value);
+        	}
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

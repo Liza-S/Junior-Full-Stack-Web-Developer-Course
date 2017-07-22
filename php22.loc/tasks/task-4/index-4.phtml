@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Функции для массивов</title>
+        <link href="/tasks/task-4/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+	        $array=[0,1,1,12,3,4,5];
+	        $filterResult = array_filter($array, function($value, $key){
+	        	var_dump($key, $value);
+	        	return $value == 1;
+	        }, ARRAY_FILTER_USE_BOTH);
+	        var_dump($filterResult);
+
+            $array1 = array("color" => "red", 2, 4);
+            $array2 = array("a", "b", "color" => "green", "shape" => "trapezoid", 4);
+            var_dump($array1,$array2);
+
+            $result = array_merge($array1, $array2);
+            var_dump($result);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Сортировка</title>
+        <link href="/tasks/task-5/style.css" type="text/css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <pre>
+        <?
+        	$array1 = [65,43,64,487,54,23];
+        	$array2 = ['fcd', 'jh', 'dsc', 'e'];
+
+        	sort($array1);
+        	sort($array2);
+
+        	var_dump($array1, $array2);
+
+        	$array = [65, 43, 64, 487,54,23];
+
+        	usort($array, function($a, $b){
+        		return (int) $b-$a;
+        	});
+
+        	var_dump($array);
+        ?>
+        </pre>
+    </body>
+
+</html>
+
+
