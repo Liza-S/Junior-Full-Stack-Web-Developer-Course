@@ -1,0 +1,34 @@
+<?php
+abstract class Product {
+	abstract function make();
+}
+
+class MyProduct extends Product {
+	public function make() {
+		return 'make my product';
+	}
+}
+
+abstract class Creator {
+	abstract function getProduct();
+}
+
+class MyProductCreator extends Creator {
+	public function getProduct() {
+		return new MyProduct();
+	}
+}
+
+$creator = new MyProductCreator();
+
+$result = $creator->getProduct()->make();
+
+die($result);
+    
+    
+    
+    
+    
+    
+
+

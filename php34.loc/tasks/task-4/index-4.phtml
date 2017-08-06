@@ -1,0 +1,45 @@
+<?php
+interface OutputInterface {
+	public function send($data);
+}
+    
+class XMLOutput implements OutputInterface {
+	public function send($data) {
+		echo 'Данные [' .$data.'] в формате XML';
+	}
+}
+
+class JsonOutput implements OutputInterface {
+	public function send($data) {
+		echo 'Данные [' .$data.'] в формате Json';
+	}
+}
+
+class Data {
+	public $data;
+
+	public $output;
+
+	public function __construct($data, OutputInterface $output) {
+		$this->data = $data;
+		$this->output = $output;
+	}
+
+	public function makeTransfer() {
+		$this->output->send($this->data);
+	}
+}
+
+$data = new Data('полезные данные', new XMLOutput());
+
+$data->makeTransfer();
+
+echo '<br>';
+
+$data = new Data('другие полезные данные', new JsonOutput());
+
+$data->makeTransfer();    
+    
+    
+
+

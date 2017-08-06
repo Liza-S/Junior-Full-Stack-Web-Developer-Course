@@ -1,0 +1,41 @@
+<?php
+class Good {
+	public $name;
+	public $price;
+
+	/*public $params = array();*/
+	private $params = array();
+
+	public function __construct($name, $price) {
+		$this->name = $name;
+		$this->price = $price;
+		/*$this->params = $params;*/
+	}
+
+	public function getParams() {
+		if (empty($this->params)) {
+			$this->params = array('param1' => 'val1', 'param2' => 'val2');
+		}
+
+		return $this->params;
+	}
+}
+
+$good = new Good('Iphone', 399);
+echo '<pre>';
+
+var_dump($good);
+
+$good->getParams();
+
+echo '<br>';
+
+var_dump($good);
+    
+    
+    
+    
+    
+    
+
+
