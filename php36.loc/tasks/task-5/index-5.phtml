@@ -1,0 +1,8 @@
+<?php
+
+$str= 'my id: 5353232, my id: 454645';
+$pattern = '/:\s(\d+)/us';
+
+preg_match_all($pattern, $str, $matches);
+echo '<pre>';
+var_dump($matches);

@@ -1,0 +1,9 @@
+<?php
+
+$str1 = 'my id: 5353232';
+$str2 = 'another string';
+$pattern = '/:\s(\d+)/us';
+
+$result1 = preg_match($pattern, $str1, $matches1);
+$result2 = preg_match($pattern, $str2, $matches2);
+var_dump($result1, $result2, $matches1, $matches2);

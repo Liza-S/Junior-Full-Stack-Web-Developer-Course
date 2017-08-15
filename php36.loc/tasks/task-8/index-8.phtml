@@ -1,0 +1,22 @@
+<?php
+
+function myTrim($str) 
+{
+	$pattern = '#(^\s+)|(\s+$)#us';
+	return preg_replace($pattern, '', $str);
+}
+
+$str = " not trimed str \n";
+$trimmedStr = myTrim($str);
+echo '<pre>';
+var_dump($trimmedStr);
+
+
+function changeDateFormat($date) {
+	return preg_replace('#(\d{2})\.(\d{2})\.(\d{4})#', '$3/$2/$1', $date);
+}
+
+$date = '15.05.1999';
+$newFormat = changeDateFormat($date);
+
+var_dump($newFormat);

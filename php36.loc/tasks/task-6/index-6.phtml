@@ -1,0 +1,12 @@
+<?php
+
+$links = '<a href="http://example.com/example/">link example</a>
+    <a class="link" href="http://php36.loc/task-list/">to all tasks</a>
+    <a href="https://www.facebook.com/realfive/" title="hello">real on facebook</a>
+    <a href="http://realfive.eu/" class="link">real site</a>';
+
+$pattern = '/href="([^"]+)"/';
+
+preg_match_all($pattern, $links, $matches);
+$matches = implode(', ', $matches[1]);
+echo $matches;

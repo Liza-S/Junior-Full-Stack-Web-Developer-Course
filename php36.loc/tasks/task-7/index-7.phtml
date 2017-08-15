@@ -1,0 +1,11 @@
+<?php
+
+$str = '7777777 '
+        . 'next phohe: 8888888 '
+        . 'another phone 4546656 '
+        . 'and another one 5435436';
+$pattern = '/\D+/us';
+
+$phones = preg_split($pattern, $str);
+echo '<pre>';
+var_dump($phones);

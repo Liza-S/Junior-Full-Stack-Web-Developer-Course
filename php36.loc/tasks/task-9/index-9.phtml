@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание №9</title>
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+
+        <script>
+        var rg = /\d+\gi/;
+        var str ='543643 tfrd 64343 gdfgd 35353';
+        console.log(rg.test('ddf 54435'));
+        console.log(rg.test('random string'));
+
+        console.log(rg.exec('ddf 43'));
+        console.log(rg.exec('random string'));
+        console.log(str.split('/\D+/'));
+
+        console.log(str.replace(/\D+/, ' replaced '));
+        console.log(str.replace(/\D+/g, ' replaced '));
+        </script>
+
+    </body>
+</html>

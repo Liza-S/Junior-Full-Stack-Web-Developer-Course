@@ -1,0 +1,40 @@
+<?php
+
+//тестовый запрос
+$result = curlQuery('https://teaplace.com.ua/');
+echo $result;
+echo '<pre>';
+echo htmlspecialchars($result); // htmlspecialchars - для того чтобы увидеть html код
+
+function curlQuery($url) {
+
+    $curl = curl_init(); //инициализируем cURL сессию
+    //устанавливаем опции
+    //запрашиваемый url
+    curl_setopt($curl, CURLOPT_URL, $url);
+    //заголовки будут тексте ответа
+    curl_setopt($curl, CURLOPT_HEADER, 1);
+
+    //результат выполнения запроса вернется в качестве результата
+    //curl_exec, а не выведется сразу в буфер вывода
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+    //устанавливаем user agent чтобы сайт принял нас за пользователя
+    curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+            . " AppleWebKit/537.36 (KHTML, like Gecko)"
+            . " Chrome/59.0.3071.115 Safari/537.36");
+
+    //устанавливаем таймауты, чтобы запрос не зависал
+    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 15);
+    curl_setopt($curl, CURLOPT_TIMEOUT, 20);
+
+    //устанавливаем follow location чтобы запрос 
+    //реагировал на переадресацию со страниц
+    curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+
+    //выполняем запрос, получаем результат и закрываем cURL
+    $result = curl_exec($curl);
+    curl_close($curl);
+
+    return $result;
+}
