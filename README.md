@@ -12,4 +12,8 @@ This is my solution of tasks on the Junior Full Stack Web Developer RealFive Cou
 
 <img src="css5.loc/tasks/task-3/2s.jpg" alt="Second layout">
 
+[Third layout](https://github.com/Liza-S/Junior-Full-Stack-Web-Developer-Course/tree/master/css8.loc/tasks/task-3)
+
+<img src="css8.loc/1.jpg" alt="Third layout">
+
 [Online-Shop](https://github.com/Liza-S/shop.loc) on own engine.
