@@ -17,3 +17,5 @@ This is my solution of tasks on the Junior Full Stack Web Developer RealFive Cou
 <img src="css8.loc/1.jpg" alt="Third layout">
 
 [Online-Shop](https://github.com/Liza-S/shop.loc) on own engine.
+
+![](https://github.com/Liza-S/shop.loc/blob/master/img/1.jpg)
